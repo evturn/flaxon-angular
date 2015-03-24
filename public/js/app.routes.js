@@ -8,5 +8,10 @@ angular.module('flaxonRoutes', ['ngRoute'])
 			controller	: 'AboutCtrl',
 			controllerAs: 'about'
 		})
+		.when('/books', {
+			templateUrl : 'views/books.html',
+			controller  : 'BooksCtrl',
+			controllerAs: 'books'
+		})
 
 });
