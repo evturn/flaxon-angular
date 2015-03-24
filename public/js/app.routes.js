@@ -1,5 +1,7 @@
-angular.module('flaxon', ['ngRoute'])
+angular.module('flaxonRoutes', ['ngRoute'])
 
 .config(function($routeProvider, $locationProvider) {
+
+
 
 });
