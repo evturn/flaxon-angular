@@ -4,7 +4,7 @@ angular.module('flaxon', ['flaxonRoutes'])
 
 	var vm = this;
 
-	vm.message = 'Harvard 2012 Alumni'
+	vm.message = 'Xmus Jaxon Flaxon-Waxon';
 
 })
 
@@ -12,13 +12,20 @@ angular.module('flaxon', ['flaxonRoutes'])
 
 	var vm = this;
 
-	vm.message = 'BS in Microbiology'
+	vm.message = 'Harvard 2012 Alumni - BS in Microbiology';
 
 })
 
 .controller('BooksCtrl', function() {
 
 	var vm = this;
-	vm.message = 'Wrote 1,003 books on genetics'
+	vm.message = 'Wrote 1,003 books on genetics';
 
 })
+
+.controller('AwardsCtrl', function() {
+
+	var vm = this;
+	vm.message = 'Time Man of the Year (4 times)';
+
+});
