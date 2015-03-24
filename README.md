@@ -1,0 +1,1 @@
+![Alt text](https://raw.githubusercontent.com/evturn/flaxon-angular/master/public/img/screenshot.png)
