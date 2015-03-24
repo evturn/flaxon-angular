@@ -6,4 +6,12 @@ angular.module('flaxon', ['flaxonRoutes'])
 
 	vm.message = 'Harvard 2012 Alumni'
 
+})
+
+.controller('AboutCtrl', function() {
+
+	var vm = this;
+	
+	vm.message = 'BS in Microbiology'
+
 });
